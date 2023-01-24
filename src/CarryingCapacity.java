@@ -19,4 +19,13 @@ public enum CarryingCapacity {
     public Double getTo() {
         return to;
     }
+
+    @Override
+    public String toString() {
+        if (to != null) {
+            return "Грузоподъемность авто: от " + getFrom() + " до " + getTo() + " тонн.";
+        } else {
+            return "Грузоподъемность авто: от " + getFrom() + " тонн.";
+        }
+    }
 }

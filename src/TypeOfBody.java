@@ -18,6 +18,6 @@ public enum TypeOfBody {
 
     @Override
     public String toString() {
-        return name;
+        return "Тип кузова: " + name;
     }
 }

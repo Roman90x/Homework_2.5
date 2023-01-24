@@ -1,4 +1,4 @@
-public class Car extends Transport{
+public class Car extends Transport {
 
     private TypeOfBody typeOfBody;
     public Car(String brand, String model, double engineVolume,TypeOfBody typeOfBody) {
@@ -19,7 +19,7 @@ public class Car extends Transport{
         if (typeOfBody == null) {
             System.out.println("Данных по авто не достаточно");
         } else {
-            System.out.println("Тип кузова: "+ getTypeOfBody());
+            System.out.println(typeOfBody);
         }
     }
 }

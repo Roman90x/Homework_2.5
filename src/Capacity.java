@@ -20,4 +20,9 @@ public enum Capacity {
     public int getTo() {
         return to;
     }
+
+    @Override
+    public String toString() {
+        return "Вместимость автобуса: от " + getFrom() + " до " + getTo() + " мест.";
+    }
 }

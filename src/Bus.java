@@ -1,4 +1,4 @@
-public class Bus extends Transport{
+public class Bus extends Transport {
     private Capacity capacity;
     public Bus(String brand, String model, double engineVolume, Capacity capacity) {
         super(brand, model, engineVolume);
@@ -18,7 +18,7 @@ public class Bus extends Transport{
         if (capacity == null) {
             System.out.println("Данных по авто не достаточно");
         } else {
-            System.out.println("Вместимость автобуса: от " + capacity.getFrom() + " до " + capacity.getTo());
+            System.out.println(capacity);
         }
     }
 }

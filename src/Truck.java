@@ -1,4 +1,4 @@
-public class Truck extends Transport{
+public class Truck extends Transport {
 
     private CarryingCapacity carryingCapacity;
     public Truck(String brand, String model, double engineVolume,CarryingCapacity carryingCapacity) {
@@ -19,9 +19,7 @@ public class Truck extends Transport{
         if (carryingCapacity == null) {
             System.out.println("Данных по авто не достаточно");
         } else {
-            String from = carryingCapacity.getFrom() == null ? "" : "от " + carryingCapacity.getFrom() + "";
-            String to = carryingCapacity.getTo() == null ? "" : "до " + carryingCapacity.getTo() + "";
-            System.out.println("Грузоподъемность авто: "+ from + to);
+            System.out.println(carryingCapacity);
         }
     }
 
