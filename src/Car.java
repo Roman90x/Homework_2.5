@@ -19,7 +19,7 @@ public class Car extends Transport{
         if (typeOfBody == null) {
             System.out.println("Данных по авто не достаточно");
         } else {
-            System.out.println("Тип кузова "+ getTypeOfBody());
+            System.out.println("Тип кузова: "+ getTypeOfBody());
         }
     }
 }

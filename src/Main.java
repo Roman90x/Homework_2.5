@@ -25,5 +25,7 @@ public abstract class Main {
     private static void printInfo(Transport transport) {
         System.out.println(transport.getBrand() + transport.getModel());
         transport.printType();
+
     }
+
 }

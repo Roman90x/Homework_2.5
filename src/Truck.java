@@ -21,7 +21,7 @@ public class Truck extends Transport{
         } else {
             String from = carryingCapacity.getFrom() == null ? "" : "от " + carryingCapacity.getFrom() + "";
             String to = carryingCapacity.getTo() == null ? "" : "до " + carryingCapacity.getTo() + "";
-            System.out.println("Грузоподъемность авто "+ from + to);
+            System.out.println("Грузоподъемность авто: "+ from + to);
         }
     }
 
